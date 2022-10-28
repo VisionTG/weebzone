@@ -233,8 +233,7 @@ def start(update, context):
         buttons.buildbutton(f"{START_BTN2_NAME}", f"{START_BTN2_URL}")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
-        start_string = f'''This bot can mirror all your links to Google Drive!
-Type /{BotCommands.HelpCommand} to get a list of available commands
+        start_string = f'''**__You know what to do 😊__**
 '''
         if PICS:
             sendPhoto(start_string, context.bot, update.message, random.choice(PICS), reply_markup)
