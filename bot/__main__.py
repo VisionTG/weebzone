@@ -233,8 +233,8 @@ def start(update, context):
         buttons.buildbutton(f"{START_BTN2_NAME}", f"{START_BTN2_URL}")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
-        start_string = f'''**__You know what to do 😊__**
-'''
+        start_string = f'''𝑰 𝒄𝒂𝒏 𝒅𝒐 𝒎𝒂𝒏𝒚 𝒕𝒉𝒊𝒏𝒈𝒔 ☺️ 𝒂𝒏𝒅 𝒔𝒊𝒎𝒑𝒍𝒊𝒇𝒚 𝒚𝒐𝒖𝒓 𝒘𝒐𝒓𝒌'''
+
         if PICS:
             sendPhoto(start_string, context.bot, update.message, random.choice(PICS), reply_markup)
         else:
