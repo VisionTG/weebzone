@@ -686,9 +686,9 @@ except KeyError:
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+        GD_INFO = 'Uploaded by: MaxxBotsOfficial'
 except KeyError:
-    GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+    GD_INFO = 'Uploaded by: MaxxBotsOfficial'
 try:
     DISABLE_DRIVE_LINK = getConfig('DISABLE_DRIVE_LINK')
     DISABLE_DRIVE_LINK = DISABLE_DRIVE_LINK.lower() == 'true'
@@ -706,8 +706,8 @@ try:
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
         raise KeyError
 except:
-    START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_NAME = '🏌️ADMIN 🏌️'
+    START_BTN1_URL = 'https://t.me/MaxxRider'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -715,14 +715,14 @@ try:
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
         raise KeyError
 except:
-    START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_NAME = '🔵 CHANNEL 🔵'
+    START_BTN2_URL = 'https://t.me/maxxbots'
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = 'MAXX'
 except KeyError:
-    CREDIT_NAME = 'WeebZone'
+    CREDIT_NAME = 'MAXX'
 try:
     NAME_FONT = getConfig('NAME_FONT')
     if len(NAME_FONT) == 0:
